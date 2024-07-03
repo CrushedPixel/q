@@ -32,8 +32,6 @@ namespace cycfi::q
       float s = 0.0f;
    };
 
-   auto white_noise = white_noise_gen{};
-
    ////////////////////////////////////////////////////////////////////////////
    // pink_noise_gen generates pink noise from white noise through a
    // 3db/octave (-10dB/decade) filter using a weighted sum of first order
